@@ -13,8 +13,7 @@ public class TikTacToe {
 
         for(int i = 0; i < table.length; i++){
             table[i] = '#';
-        }
-        
+        }        
     }
     
     /**
@@ -33,8 +32,7 @@ public class TikTacToe {
         System.out.println();
         for(int i = 6; i < 9; i++){
             System.out.print(table[i] + " ");
-        }
-        
+        }        
     }
 
     /**
@@ -76,10 +74,8 @@ public class TikTacToe {
                 break;
             default:
                 System.out.println("Invalid Choice!");
-                break;
-            
-        }        
-        
+                break;       
+        }            
     }
 
     /**
@@ -180,9 +176,9 @@ public class TikTacToe {
 
     /**
      * Method to check if any user has won the game or not
-     * @param table
-     * @param move
-     * @return
+     * @param table array of characters
+     * @param move the character symbol for the different players
+     * @return true if the game is over, false if it is not
      */
     public static boolean gameWon(char[] table, char move) {
         
