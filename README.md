@@ -8,6 +8,7 @@ To use this program you simply need [Java](https://www.oracle.com/java/technolog
 
 ![map picture](https://github.com/Eusha425/TicTacToe/blob/main/Table%20map.png)
 
+You select the corresponding number on the board to to make your choice and the program will update the board accordingly.
 ## Authors
 
 - [@Eusha425](https://github.com/Eusha425)
